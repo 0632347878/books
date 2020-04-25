@@ -72,12 +72,12 @@
 </template>
 
 <script>
-import Book from '../classes/book';
+import Book from '../classes/Book';
 import '../vendors/picker.min.css';
 /* eslint-disable */
 'use strict';
 export default {
-  name: 'HelloWorld',
+  name: 'Library',
   data() {
     return {
       order: '',
